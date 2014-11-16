@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+        <meta charset="UTF-8" />
+<link rel="stylesheet" href="./formulaire.css" />
+        <title>Mon premier formulaire HTML</title>
+</head>
+<body>
+    <h1>Formulaire</h1>
+<form method="post" action="ex04_reception.php">
+        <p>
+        <label for="nomEmploye">Nom</label> 
+        <input type="text" name="nom"   id="nomEmploye" size="30"/>
+</p>
+        <p>
+        <label for="prenomEmploye">Prénom</label> 
+        <input type="text" name="prenom"   id="prenomEmploye"  size="30"/><br/>     
+</p>
+<p>
+        <label for="telephone">Téléphone</label> 
+        <input type="text" name="telephone" id="telephone" size="10"/><br/>
+</p>
+        <p>
+        <label for="secretaire">Civilite</label>  
+        <input type="radio" name="categorie" value="secrétaire" id="secretaire" checked="checked"/>Madame
+        <input type="radio" name="categorie" value="secrétaire" id="secretaire" checked="checked"/>Monsieur<br/>
+</p>
+<p>
+        <label for="technique">Lettre d'information</label> 
+        <input type="checkbox" name="categorie" value="technique" id="technique"/>Cocher cette case<br/>
+</p>
+<p>
+        <label for="boss">Message</label> 
+        <textarea></textarea><br/>
+</p>
+<p>
+        <label for="boss">:::</label> 
+        <input type="submit" value="Envoyer" class=""></input>
+        </p>
+</form>
+</body>
+</html>
