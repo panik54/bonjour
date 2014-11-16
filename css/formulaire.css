@@ -1,0 +1,97 @@
+/* style par défaut du texte */
+body {
+        font-family: "Comic Sans MS";
+        font-size: 18pt;
+        background-color: #fff;
+        color: #222;
+}
+
+/* style du titre */
+h1 {
+        font-weight: bold;
+        font-size: 100%;
+        color: white;
+        text-align: center;
+        background-color: #999;
+        padding: 15px;
+}
+
+/******************************************
+| mise en forme du formulaire             |
+\*****************************************/
+
+/* tous les labels ont la même largeur pour aligner les inputs */
+form p label {
+        float: left;
+        width: 20%;
+        text-align: right;
+        padding: 6px;
+        font-weight: bold;
+		line-height: 90%;
+}
+
+form p input,textarea {
+        padding: 6px;
+        margin-left: 20px;
+        background-color: #ddd;
+        border-style: groove;
+        border-width: 5px;
+        border-color: #444;
+		font-size: 0.9em;
+}
+
+form p input[type=text],textarea {
+		width:50%;
+}
+
+/* input spécial pour le boutton submit */
+form p input.sansLabel {
+        margin-left: 432px; /* 400+6+6+20 : aligné sur les autres inputs */
+        font-size: 130%;
+        font-weight: bolder;
+}
+
+form p {
+        background-color: #fff;
+        padding: 0px;
+}
+
+/****************************************/
+
+
+/* style par défaut des liens */
+a:link {
+        text-decoration: underline; /* souligné */
+        color: #00e; 
+}
+
+/* style des liens visités */
+a:visited {
+        text-decoration: underline; /* souligné */
+        color: #00c;/* bleu clair */
+}
+
+/* style des liens visités */
+a:hover {
+        text-decoration: underline; /* souligné */
+        color: #e40;/* rouge vif */
+}
+
+/* style des éléments importants */
+strong {
+        font-variant: small-caps;
+        font-weight: bolder;
+        color: black;
+}
+
+/* style des éléments mis en évidence */
+em {
+        font-style: italic;
+        color: black;
+}
+
+p {
+        background-color: #ddd;
+        text-align: justify;
+        padding: 5pt;
+}
